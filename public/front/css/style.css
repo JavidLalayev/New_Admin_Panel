@@ -5480,3 +5480,12 @@ section#partners_t {
   .gl-more h2 {margin-bottom: 10px;}
 
 }
+
+
+.m_li{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+}

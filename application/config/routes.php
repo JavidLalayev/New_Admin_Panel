@@ -165,7 +165,28 @@ $route["(:any)/Home"] = "HomeWebPageController/index/";
 $route["(:any)/About"] = "AboutWebPageController/index/";
 
 
+// Elaqe
+$route["(:any)/Contact"] = "ContactWebPageController/index/";
 
+
+// Tedbirler
+$route["(:any)/Events"] = "EventsWebPageController/index/";
+$route["(:any)/Events(.*)"] = "EventsWebPageController/index/$1";
+$route["(:any)/Event_single(.*)"] = "EventsWebPageController/single_page/$2/$1";
+
+
+
+// Kurslar
+$route["(:any)/Courses"] = "CoursesWebPageController/index/";
+$route["(:any)/Courses(.*)"] = "CoursesWebPageController/index/$1";
+$route["(:any)/Course_single(.*)"] = "CoursesWebPageController/single_page/$2/$1";
+
+
+
+// Muellimler
+$route["(:any)/Teachers"] = "TeachersWebPageController/index/";
+$route["(:any)/Teachers(.*)"] = "TeachersWebPageController/index/$1";
+$route["(:any)/Teacher_single(.*)"] = "TeachersWebPageController/single_page/$2/$1";
 
 
 
